@@ -1,9 +1,9 @@
 import React from 'react';
-import './Navigation.style.css';
+import styles from './Navigation.module.css';
 
 function Navigation() {
   return (
-    <div className="navigation">
+    <div className={styles.navigation}>
       <a href="changeME!">About</a>
       <a href="changeME!">Skills</a>
       <a href="changeME!">Portfolio</a>

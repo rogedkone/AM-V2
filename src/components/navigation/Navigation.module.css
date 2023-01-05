@@ -8,14 +8,14 @@
     gap: 20px;
 
     @media (min-width: 481px) {
-        /* background: orange; */
-        top: 134px;
-        width: 100%;
-        gap: 6%;
+        margin-top: 66px;
+        margin-left: 134px;
+        justify-content: space-between;
+        max-width: 770px;
     }
 
     a {
-        margin-top: 78px;
+        margin-top: 74px;
         font-family: Gilroy, sans-serif;
         font-style: normal;
         font-weight: 300;
@@ -26,8 +26,8 @@
         color: #FFF;
 
         @media (min-width: 481px) {
-            font-weight: 300;
             font-size: 24px;
+            line-height: 28px;
         }
     }
 }

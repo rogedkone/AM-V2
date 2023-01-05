@@ -29,21 +29,25 @@ function About() {
       </div>
 
       <div className={styles['section-soft']}>
-        <h2 className={`${styles.subtitle} text-right`}>SOFT SKILLS</h2>
+        <h2 className={`${styles.subtitle} text-right 📱`}>SOFT SKILLS</h2>
+        <h2 className={`${styles.subtitle} text-center 🖥️`}>SOFT SKILLS</h2>
         <h5 className={`${styles['soft-subtitle']} 📱`}>THE BEST OF ME</h5>
         <div className={styles['soft-list']}>
-          <h3 className={styles.softskill}>Thinking</h3>
-          <h4 className={styles['softskill-subtitle']}>Problem Solving</h4>
-          <ThinkSvg className="mt-2" />
-          <h5 className={styles['softskill-num']}>5/5</h5>
-          <h3 className={styles.softskill}>Attention</h3>
-          <h4 className={styles['softskill-subtitle']}>Details Matter</h4>
+          <h3 className={`${styles.softskill} ${styles['skill-one']} 🖥️`}>Thinking</h3>
+          <h3 className={`${styles.softskill} 📱`}>Thinking</h3>
+          <h4 className={`${styles['softskill-subtitle']} 📱`}>Problem Solving</h4>
+          <ThinkSvg />
+          <h5 className={`${styles['softskill-num']} 📱`}>5/5</h5>
+          <h3 className={`${styles.softskill} ${styles['skill-two']} 🖥️`}>Attention</h3>
+          <h3 className={`${styles.softskill} 📱`}>Attention</h3>
+          <h4 className={`${styles['softskill-subtitle']} 📱`}>Details Matter</h4>
           <AttentSvg />
-          <h5 className={styles['softskill-num']}>4/5</h5>
-          <h3 className={styles.softskill}>Stress Tolerance</h3>
-          <h4 className={styles['softskill-subtitle']}>Stay Calm</h4>
+          <h5 className={`${styles['softskill-num']} 📱`}>4/5</h5>
+          <h3 className={`${styles.softskill} 📱`}>Stress Tolerance</h3>
+          <h3 className={`${styles.softskill} ${styles['skill-three']} 🖥️`}>Tolerance</h3>
+          <h4 className={`${styles['softskill-subtitle']} 📱`}>Stay Calm</h4>
           <TolerSvg className="mt-2" />
-          <h5 className={styles['softskill-num']}>5/5</h5>
+          <h5 className={`${styles['softskill-num']} 📱`}>5/5</h5>
         </div>
       </div>
     </div>

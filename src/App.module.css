@@ -6,6 +6,9 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+
+  @media (min-width: 481px) {
+    height: 2830px;
+}
 }

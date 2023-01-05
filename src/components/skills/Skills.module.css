@@ -2,6 +2,10 @@
     margin-top: -90px;
     width: 317px;
     color: white;
+
+    @media (min-width: 481px) {
+        margin-top: 67px;
+    }
 }
 
 .title {
@@ -12,6 +16,10 @@
     line-height: 70px;
     text-transform: uppercase;
     color: #F7F7F7;
+
+    @media (min-width: 481px) {
+        text-align: center;
+    }
 }
 
 .subtitle {
@@ -34,6 +42,14 @@
     row-gap: 12px;
     align-items: center;
     grid-template-columns: repeat(2, auto);
+
+    @media (min-width: 481px) {
+        grid-template-columns: repeat(6, auto);
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        column-gap: 60px;
+    }
 }
 
 .skill {

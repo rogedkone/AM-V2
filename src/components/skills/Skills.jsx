@@ -11,7 +11,7 @@ function Skills() {
   return (
     <div className={styles.skills}>
       <h1 className={styles.title}>SKILLS</h1>
-      <h2 className={styles.subtitle}>ЗНАНИЯ</h2>
+      <h2 className={`${styles.subtitle} 📱`}>ЗНАНИЯ</h2>
       <div className={styles['skills-list']}>
         <h3 className={styles.skill}>JS & Node.js</h3>
         <OrangeThree />
@@ -47,6 +47,8 @@ function Skills() {
         <WhiteTwo />
         <h3 className={styles.skill}>NoSQL</h3>
         <OrangeOne />
+        <h3 className={styles.skill}>REST</h3>
+        <WhiteTwo />
       </div>
     </div>
   );
