@@ -1,0 +1,33 @@
+.navigation {
+    /* position: absolute; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    top: 78px;
+    width: 100%;
+    gap: 20px;
+
+    @media (min-width: 481px) {
+        /* background: orange; */
+        top: 134px;
+        width: 100%;
+        gap: 6%;
+    }
+
+    a {
+        margin-top: 78px;
+        font-family: Gilroy, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+
+        @media (min-width: 481px) {
+            font-weight: 300;
+            font-size: 24px;
+        }
+    }
+}

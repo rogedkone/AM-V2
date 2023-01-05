@@ -1,0 +1,60 @@
+.figures {
+    z-index: 20;
+}
+
+.nav-circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    @media (min-width: 481px) {
+        top: 60px;
+        right: 60px;
+        transform: scale(2.5)
+    }
+}
+
+.nav-triangle {
+    position: absolute;
+    top: -2px;
+
+    @media (min-width: 481px) {
+        top: 46px;
+        transform: scale(2.5)
+    }
+}
+
+.title-square {
+    position: absolute;
+    top: 300px;
+    right: 0;
+
+    @media (min-width: 481px) {
+        top: 400px;
+        right: 90px;
+        transform: scale(2.5)
+    }
+}
+
+.about-circle {
+    z-index: 20;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.about-square {
+    z-index: 20;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.soft-triangle {
+    z-index: 20;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.soft-square {
+    z-index: 20;
+    position: absolute;
+    margin: 0 auto;
+}

@@ -1,0 +1,6 @@
+.bg {
+    margin-top: -325px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}

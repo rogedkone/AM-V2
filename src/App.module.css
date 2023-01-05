@@ -1,0 +1,11 @@
+/* @import url("./test.style.css"); */
+
+.app {
+  height: 3333px;
+  background: linear-gradient(167.95deg, #242528 0%, #0B0B0E 100%);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

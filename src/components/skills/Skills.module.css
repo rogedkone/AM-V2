@@ -1,0 +1,47 @@
+.skills {
+    margin-top: -90px;
+    width: 317px;
+    color: white;
+}
+
+.title {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: right;
+}
+
+.skills-list {
+    margin-top: 43px;
+    justify-content: space-between;
+    display: grid;
+    row-gap: 12px;
+    align-items: center;
+    grid-template-columns: repeat(2, auto);
+}
+
+.skill {
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.025em;
+    color: #FFF;
+}

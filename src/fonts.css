@@ -1,0 +1,82 @@
+/* Add custom fonts */
+
+/* Gilroy */
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Thin'), local('Gilroy-Thin'),
+        url('./fonts/gilroy/gilroyThin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Ultra Light'), local('Gilroy-Ultra-Light'),
+        url('./fonts/gilroy/gilroyUltraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url('./fonts/gilroy/gilroyLight.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('./fonts/gilroy/gilroyRegular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+        url('./fonts/gilroy/gilroyMedium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url('./fonts/gilroy/gilroySemibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('./fonts/gilroy/gilroyBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+        url('./fonts/gilroy/gilroyExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+        url('./fonts/gilroy/gilroyBlack.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+        url('./fonts/gilroy/gilroyHeavy.ttf');
+    font-weight: 900;
+    font-style: normal;
+}

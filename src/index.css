@@ -1,0 +1,60 @@
+/* stylelint-disable at-rule-no-unknown */
+@import url("./adaptive.css");
+@import url("./fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
+  @media (min-width: 481px) {
+    margin-right: 20px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: FuturaBook;
+  src: url('./fonts/futuraBook/futuraBookCCT.ttf') format('ttf'),
+  url('./fonts/futuraBook/futuraBookNormalRegular.ttf') format('ttf')
+}
+
+/* TODO: Подключи шрифты! (они не подключены) */
+
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/gilroy/gilroyBlack.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyBlackItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyBold.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyBoldItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyExtraBold.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyExtraboldItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyHeavy.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyHeavyItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyLight.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyLightItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyMedium.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyMediumItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyRegular.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyRegularItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroySemibold.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroySemiboldItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyThin.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyThinItalic.ttf') format('ttf'),
+  url('./fonts/gilroy/gilroyUltraLightItalic.ttf') format('ttf')
+}

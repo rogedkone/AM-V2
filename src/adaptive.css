@@ -1,0 +1,18 @@
+/* stylelint-disable selector-class-pattern */
+
+.📱 {
+    @media (min-width: 481px) {
+        display: none;
+      }
+}
+
+.🖥️ {
+    @media (max-width: 480px) {
+        display: none;
+      }
+}
+
+
+/* .🔝10{
+  z-index: 10;
+} */

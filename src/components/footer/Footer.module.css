@@ -1,0 +1,43 @@
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    z-index: 10;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.soc-list {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 310px;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.end-title {
+    margin-top: 40px;
+    font-family: FuturaBookCTT, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #FF8C1A;
+}
