@@ -3,12 +3,17 @@
 .app {
   height: 3333px;
   background: linear-gradient(167.95deg, #242528 0%, #0B0B0E 100%);
-  width: 100vw;
+
+  /* background: green; */
+  width: 100vw;   
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+  overflow: hidden;
 
   @media (min-width: 481px) {
     height: 2830px;
 }
+
 }

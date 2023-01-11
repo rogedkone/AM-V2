@@ -1,161 +1,252 @@
 .about {
     position: relative;
-    margin-top: 122px;
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    align-content: center;
     color: white;
     z-index: 10;
 
-    @media (min-width: 481px) {
-        margin-top: 344px;
-    }
+    @media (min-width: 600px) {
+        margin-top: 160px;
+    };
+
+    @media (min-width: 900px) {
+        margin-top: 280px;
+    };
 }
 
-.title {
-    margin-top: 22px;
-    margin-left: 110px;
+.about-section {
+    z-index: 10;
+    width: 90vw;
+}
+
+.about-title {
+    margin-bottom: 60px;
+    text-align: right;
     font-weight: 800;
     font-size: 64px;
     line-height: 70px;
     font-family: Gilroy, sans-serif;
     font-style: normal;
 
-    @media (min-width: 481px) {
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: 20px;
-        font-size: 90px;
-    }
+    @media (min-width: 600px) {
+        padding-right: 8vw;
+        margin-bottom: 80px;
+    };
+
+    @media (min-width: 900px) {
+        padding-right: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    };
 }
 
-.subtitle {
+.edu-title {
+    margin-bottom: -10px;
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFF;
-    font-size: 32px;
-    line-height: 34px;
+    font-size: 10vw;
+    line-height: 10vw;
 
-    @media (min-width: 481px) {
+    @media (min-width: 600px) {
+        font-size: 5vw;
+        line-height: 5vw;
+    };
+
+    @media (min-width: 900px) {
+        padding-bottom: 40px;
         font-size: 50px;
         line-height: 54px;
-    }
+        text-align: center;
+    };
 }
 
 .edu-subtitle {
-    margin-left: auto;
-    margin-top: -8px;
+    padding-bottom: 40px;
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 10px;
-    line-height: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    text-align: right;
+    font-size: 3vw;
+    line-height: 3vw;
     color: rgba(255 255 255 54%);
 }
 
-.section-edu {
-    position: relative;
-    margin-top: 28px;
-    margin-left: 2px;
+.edu-section {
+    padding-bottom: 30vw;
     display: flex;
     flex-direction: column;
     gap: 6px;
-    width: 320px;
+    @media (min-width: 400px) {
+        padding-bottom: 6vw;
+    };
 
-    @media (min-width: 481px) {
-        width: auto;
-        margin-top: 74px;
-        margin-right: 15px;
+    @media (min-width: 900px) {
+        padding-bottom: 60px;
         align-items: center;
-    }
+    };
 }
 
 .edu-list {
-    margin-top: 39px;
-    margin-left: 2px;
-    width: 316px;
     display: grid;
-    row-gap: 45px;
+    row-gap: 40px;
     grid-template-columns: auto auto;
     grid-template-rows: repeat(4, auto);
 
-    @media (min-width: 481px) {
-        margin-top: 4px;
-        row-gap: 5px;
-        align-items: center;
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-    }
+    @media (min-width: 900px) {
+        grid-template-columns: repeat(1, auto);
+        row-gap: 10px;
+        max-width: 70vw;
+    };
+}
+
+.edu-place {
+    font-weight: 800;
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    font-style: normal;
+    font-family: Gilroy, sans-serif;
+    letter-spacing: 0.025em;
+
+    @media (min-width: 900px) {
+        text-align: center;
+        font-size: 42px;
+        line-height: 46px;
+    };
+}
+
+.edu-time {
+    text-align: right;
+    font-family: Gilroy, serif;
+    font-weight: 800;
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    color: rgba(255 255 255 / 50%);
+    letter-spacing: 0.025em;
+
+    @media (min-width: 900px) {
+        text-align: center;
+        font-size: 32px;
+        line-height: 36px;
+    };
+}
+
+.soft-title {
+    text-align: right;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 10vw;
+    line-height: 10vw;
+
+    @media (min-width: 600px) {
+        font-size: 5vw;
+        line-height: 5vw;
+    };
+
+    @media (min-width: 900px) {
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 50px;
+        line-height: 54px;
+    };
+}
+
+.soft-subtitle {
+    padding-bottom: 40px;
+    font-family: Gilroy, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 3vw;
+    line-height: 3vw;
 }
 
 .soft-list {
-    margin-top: 40px;
     display: grid;
-    column-gap: auto;
-    row-gap: 40px;
     grid-template-columns: repeat(2, auto);
     align-items: center;
+    row-gap: 30px;
 
-    @media (min-width: 481px) {
-        margin-top: 20px;
+    @media (min-width: 600px) {
+        column-gap: 20vw;
+        row-gap: 15px;
+    }
+
+    @media (min-width: 900px) {
+        justify-items: center;
         justify-content: center;
-        display: grid;
+        column-gap: 6vw;
         row-gap: 10px;
-        column-gap: 110px;
-        grid-template-areas:
+        grid-template:
         "skill1 skill2 skill3"
         "svg svg svg";
     }
 }
 
-.section-soft {
-    margin-top: 100px;
-    width: 322px;
-
-    @media (min-width: 481px) {
-        margin-top: 20px;
-        width: 840px;
+.skill-one {
+    @media (min-width: 900px) {
+        grid-area: skill1;
     }
 }
 
-* > .section {
-    position: relative;
-    z-index: 10;
-}
-
-.skill-one {
-    grid-area: skill1;
-}
-
 .skill-two {
-    grid-area: skill2;
+    @media (min-width: 900px) {
+        grid-area: skill2;
+    }
 }
 
 .skill-three {
-    grid-area: skill3;
+    @media (min-width: 900px) {
+        grid-area: skill3;
+    }
+}
+
+.svg {
+    @media (min-width: 900px) {
+        grid-area: svg;
+        width: 100%;
+    }
 }
 
 .softskill {
+    ::before {
+        content: 'Stress Tolerance';
+    }
+
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 7vw;
+    line-height: 7vw;
     letter-spacing: 0.025em;
     color: #FFF;
 
-    @media (min-width: 481px) {
-        text-align: center;
+    @media (min-width: 600px) {
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+
+    @media (min-width: 900px) {
         font-size: 40px;
         line-height: 44px;
+
+        ::before {
+            display: none;
+        }
+
+        ::after {
+            content: 'Tolerance';
+        }
     }
 }
 
@@ -163,62 +254,20 @@
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 3vw;
+    line-height: 3vw;
     letter-spacing: 0.025em;
     color: rgba(255 255 255 8%);
     text-align: right;
 }
 
 .softskill-num {
-    padding-top: 4px;
-    text-align: right;
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 4vw;
+    line-height: 4vw;
     letter-spacing: 0.025em;
     color: #FFF;
-}
-
-.soft-subtitle {
-    margin-top: -4px;
-    font-family: Gilroy, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #FFF;
-}
-
-.place {
-    font-weight: 800;
-    font-size: 13px;
-    font-style: normal;
-    line-height: 16px;
-    font-family: Gilroy, sans-serif;
-    letter-spacing: 0.025em;
-
-    @media (min-width: 481px) {
-        font-size: 42px;
-        line-height: 46px;
-    }
-}
-
-.time {
-    font-family: Gilroy, serif;
-    font-weight: 800;
     text-align: right;
-    font-size: 13px;
-    line-height: 16px;
-    color: rgba(255 255 255 / 50%);
-    letter-spacing: 0.025em;
-
-    @media (min-width: 481px) {
-        font-size: 32px;
-        line-height: 36px;
-    }
 }

@@ -1,31 +1,24 @@
 .navigation {
-    /* position: absolute; */
-    color: white;
     display: flex;
-    justify-content: center;
-    top: 78px;
-    width: 100%;
-    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 
-    @media (min-width: 481px) {
-        margin-top: 66px;
-        margin-left: 134px;
-        justify-content: space-between;
-        max-width: 770px;
+    @media (min-width: 600px) {
+        margin-top: 90px;
+        margin-bottom: 160px;
     }
 
     a {
-        margin-top: 74px;
-        font-family: Gilroy, sans-serif;
+        padding: 40px 2vw;
+        font-family: var(--font-prime);
         font-style: normal;
         font-weight: 300;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 20px;
-        text-align: center;
         text-transform: uppercase;
-        color: #FFF;
 
-        @media (min-width: 481px) {
+        @media (min-width: 600px) {
+            padding: 40px 4vw;
             font-size: 24px;
             line-height: 28px;
         }

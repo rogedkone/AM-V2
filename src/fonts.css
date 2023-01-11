@@ -1,5 +1,90 @@
 /* Add custom fonts */
 
+/* FuturaBookCCT */
+
+@font-face {
+    font-family: futurabookctt;
+    src: local('Futura Book'), local('Futura-Book')
+    url('./fonts/futuraBook/futurabookctt.ttf'),
+    url('./fonts/futuraBook/futurabookctt.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Mulish */
+
+/* @font-face {
+    font-family: Mulish;
+    src: local('Mulish Thin'), local('Mulish-Thin'),
+        url('./fonts/Mulish/gilroyThin.ttf');
+    font-weight: 100;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Extra Light'), local('Mulish-Extra-Light'),
+        url('./fonts/mulish/mulishExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Light'), local('Mulish-Light'),
+        url('./fonts/mulish/mulishLight.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Regular'), local('Mulish-Regular'),
+        url('./fonts/mulish/mulishRegular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Medium'), local('Mulish-Medium'),
+        url('./fonts/mulish/mulishMedium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Semibold'), local('Mulish-Semibold'),
+        url('./fonts/mulish/mulishSemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Bold'), local('Mulish-Bold'),
+        url('./fonts/mulish/mulishBold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Extrabold'), local('Mulish-Extrabold'),
+        url('./fonts/mulish/mulishExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Mulish;
+    src: local('Mulish Black'), local('Mulish-Black'),
+        url('./fonts/mulish/mulishBlack.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
 /* Gilroy */
 @font-face {
     font-family: Gilroy;

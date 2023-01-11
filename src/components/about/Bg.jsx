@@ -6,8 +6,8 @@ import { ReactComponent as AboutP } from '../../svg/pc/bg/about.svg';
 function Bg() {
   return (
     <div className="bg">
-      <AboutM className="📱" />
-      <AboutP className="🖥️" />
+      <AboutM className="mobile-tablet 📱💻" />
+      <AboutP className="pc 🖥️" />
     </div>
   );
 }

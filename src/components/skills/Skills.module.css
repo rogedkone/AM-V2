@@ -4,7 +4,11 @@
     color: white;
 
     @media (min-width: 481px) {
-        margin-top: 67px;
+        margin-top: -200px;
+    }
+
+    @media (min-width: 900px) {
+        margin-top: 30px;
     }
 }
 
@@ -18,7 +22,12 @@
     color: #F7F7F7;
 
     @media (min-width: 481px) {
+        margin-top: 90px;
         text-align: center;
+    }
+
+    @media (min-width: 900px) {
+        margin-top: 0;
     }
 }
 
@@ -44,11 +53,17 @@
     grid-template-columns: repeat(2, auto);
 
     @media (min-width: 481px) {
-        grid-template-columns: repeat(6, auto);
+        margin-top: 150px;
+        grid-template-columns: repeat(4, auto);
         align-items: center;
         align-content: center;
         justify-content: center;
         column-gap: 60px;
+    }
+
+    @media (min-width: 900px) {
+        margin-top: 43px;
+        grid-template-columns: repeat(6, auto);
     }
 }
 

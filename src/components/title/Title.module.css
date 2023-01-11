@@ -1,0 +1,125 @@
+.title {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    font-family: var(--font-second);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 5vw;
+    letter-spacing: 0.025em;
+    text-align: right;
+    padding-right: 50px;
+
+    @media (min-width: 600px) {
+        text-align: left;
+        font-size: 3vw;
+        line-height: 3vw;
+
+    }
+
+    @media (min-width: 900px) {
+        font-size: 2vw;
+        line-height: 2vw;
+        padding-right: 0;
+        padding-left: 5px;
+    }
+}
+
+.first-last {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @media (min-width: 900px) {
+        gap: 5vw;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.first {
+    left: -1vw;
+    max-width: 100vw;
+    position: relative;
+    overflow: hidden;
+    font-family: var(--font-prime);
+    font-style: normal;
+    font-weight: 800;
+    color: rgba(247 247 247 / 20%);
+    font-size: 37vw;
+    line-height: 37vw;
+
+    @media (min-width: 600px) {
+        display: inline;
+        left: 0;
+        font-size: 15vw;
+        line-height: 15vw;
+    }
+
+    @media (min-width: 900px) {
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+}
+
+.last {
+    left: -2vw;
+    max-width: 100vw;
+    position: relative;
+    font-family: var(--font-prime);
+    font-style: normal;
+    font-weight: 800;
+    color: rgba(247 247 247 / 20%);
+    font-size: 32vw;
+    line-height: 32vw;
+    text-align: center;
+
+    @media (min-width: 600px) {
+        display: inline;
+        left: 0;
+        font-size: 15vw;
+        line-height: 15vw;
+    }
+
+    @media (min-width: 900px) {
+        font-size: 12vw;
+        line-height: 12vw;
+    }
+}
+
+.first-mobile {
+    margin-top: 5px;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.desc {
+    position: relative;
+    left: 5vw;
+    align-items: center;
+    font-family: mulish, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5vw;
+
+    @media (min-width: 320px) {
+        text-align: justify;
+        max-width: 74vw;
+    };
+
+    @media (min-width: 600px) {
+        max-width: 94vw;
+        position: static;
+        text-align: center;
+        font-size: 1.65vw;
+    };
+
+    @media (min-width: 900px) {
+        font-size: 1.4vw;
+    };
+}

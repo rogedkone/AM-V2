@@ -3,10 +3,9 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    transform: scaleX(2);
+    width: 100vw;
 
     @media (min-width: 481px) {
         margin-top: -280px;
-        transform: scaleX(2);
     }
 }
