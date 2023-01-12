@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from './Skills.module.css';
 import { ReactComponent as OrangeOne } from '../../svg/grades/o1.svg';
 import { ReactComponent as OrangeTwo } from '../../svg/grades/o2.svg';
@@ -8,12 +9,13 @@ import { ReactComponent as WhiteTwo } from '../../svg/grades/w2.svg';
 // import { ReactComponent as WhiteThree } from '../../svg/grades/w3.svg';
 
 function Skills() {
+  const [i18next] = useTranslation('translation');
   return (
     <div className={styles.skills}>
-      <h1 className={styles.title}>SKILLS</h1>
+      <h1 className={styles.title}>{i18next('skills-title')}</h1>
       <div className={styles['skills-list']}>
         <span />
-        <h2 className={`${styles.subtitle}`}>ЗНАНИЯ</h2>
+        <h2 className={`${styles.subtitle}`}>{i18next('skills-subtitle')}</h2>
         <h3 className={styles.skill}>JS & Node.js</h3>
         <OrangeThree />
         <h3 className={styles.skill}>Typescript</h3>

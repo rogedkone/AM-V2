@@ -1,0 +1,46 @@
+{
+    "lang": "eng",
+
+    "nav-about": "About",
+    "nav-skills": "Skills",
+    "nav-portfolio": "Portfolio",
+    "nav-contacts": "Contacts",
+
+    "title-title": "NodeJS & Web Developer",
+    "title-first": "egor",
+    "title-last": "dkone",
+    "title-desc": "I am 24 years old. A fan of rapid application development and modern standards for easy writing and code support.",
+
+    "about-title": "about",
+    "edu-title": "education",
+    "edu-subtitle": "classic & courses",
+    "edu-place-one": "MSPE Computer Science",
+    "edu-place-two": "Python Biology Math",
+    "edu-place-three": "JavaScript Self-Edu",
+    "edu-place-four": "Hexlet Web-Developer",
+    "edu-time-one": "2013 - 2016",
+    "edu-time-two": "May - August 2021",
+    "edu-time-three": "September - Apryl 2021",
+    "edu-time-four": "May - October 2022",
+
+    "soft-title": "soft skills",
+    "soft-subtitle": "the best of me",
+    "softskill-one": "Thimking",
+    "softskill-two": "Attention",
+    "softskill-three": "",
+    "softskill-three-class": "en",
+    "softskill-subtitle-one": "Problem Solving",
+    "softskill-subtitle-two": "Details Matter",
+    "softskill-subtitle-three": "Stay Calm",
+
+    "skills-title": "skills",
+    "skills-subtitle": "LEVEL",
+
+    "lang-title": "LANGUAGES",
+    "lang-rus": "Русский",
+    "lang-eng": "English",
+    "lang-cz": "Czech",
+
+    "soc-title": "social",
+    "soc-end": "Thanks for watching!"
+}

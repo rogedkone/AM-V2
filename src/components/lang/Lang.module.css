@@ -1,0 +1,16 @@
+.lang {
+    position: absolute;
+    display: flex;
+    gap: 5vw;
+
+    @media (min-width: 600px) {
+        top: 15px;
+        transform: scale(2);
+    };
+
+    @media (min-width: 900px) {
+        top: 15px;
+        transform: scale(2);
+        gap: 2vw;
+    };
+}

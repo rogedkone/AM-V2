@@ -6,12 +6,14 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Languages from './components/languages/Languages';
 import Footer from './components/footer/Footer';
+import Lang from './components/lang/Lang';
 // import Figures from './components/figures/Figures';
 
 function App() {
   return (
     <div className={styles.app}>
       {/* <Figures /> */}
+      <Lang />
       <Navigation />
       <Title />
       <About />

@@ -34,6 +34,7 @@
     line-height: 14vw;
     font-family: var(--font-prime);
     font-style: normal;
+    text-transform: uppercase;
 
     @media (min-width: 600px) {
         margin-bottom: 80px;
@@ -227,10 +228,6 @@
 }
 
 .softskill {
-    ::before {
-        content: 'Stress Tolerance';
-    }
-
     font-family: var(--font-prime);
     font-style: normal;
     font-weight: 800;
@@ -254,6 +251,28 @@
 
         ::after {
             content: 'Tolerance';
+        }
+    }
+}
+
+.en {
+    ::before {
+        content: 'Stress Tolerance';
+    }
+    @media (min-width: 900px) {
+        ::after {
+            content: 'Tolerance';
+        }
+    }
+}
+
+.ru {
+    ::before {
+        content: 'Стрессоустойчивость';
+    }
+    @media (min-width: 900px) {
+        ::after {
+            content: 'Спокойствие';
         }
     }
 }

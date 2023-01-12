@@ -1,0 +1,46 @@
+{
+    "lang": "rus",
+
+    "nav-about": "О себе",
+    "nav-skills": "Скилы",
+    "nav-portfolio": "Работы",
+    "nav-contacts": "Контакты",
+
+    "title-title": "NodeJS & Веб Разработчик",
+    "title-first": "egor",
+    "title-last": "dkone",
+    "title-desc": "Мне 24 года. Поклонник быстрой разработки приложений и современных стандартов обеспечивающих удобное написание и поддержку кода.",
+
+    "about-title": "о себе",
+    "edu-title": "образование",
+    "edu-subtitle": "классическое & курсы",
+    "edu-place-one": "ССПО Оператор ПК",
+    "edu-place-two": "БиоИнститут Python",
+    "edu-place-three": "JavaScript Сам",
+    "edu-place-four": "Hexlet Веб-Разработчик",
+    "edu-time-one": "2013 - 2016",
+    "edu-time-two": "Май - Август 2021",
+    "edu-time-three": "Сентябрь - Апрель 2021",
+    "edu-time-four": "Май - Октябрь 2022",
+
+    "soft-title": "софт скилы",
+    "soft-subtitle": "лучшее обо мне",
+    "softskill-one": "Мышление",
+    "softskill-two": "Внимание",
+    "softskill-three": "",
+    "softskill-three-class": "ru",
+    "softskill-subtitle-one": "Решение проблем",
+    "softskill-subtitle-two": "Дело в деталях",
+    "softskill-subtitle-three": "Спокоен",
+
+    "skills-title": "навыки",
+    "skills-subtitle": "уровень",
+
+    "lang-title": "языки",
+    "lang-rus": "Русский",
+    "lang-eng": "English",
+    "lang-cz": "Czech",
+
+    "soc-title": "контакты",
+    "soc-end": "Спасибо за просмотр!"
+}

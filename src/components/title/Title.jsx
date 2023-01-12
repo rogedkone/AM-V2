@@ -1,19 +1,18 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from './Title.module.css';
-// import { ReactComponent as First } from '../../svg/phone/text/first.svg';
 
 function Title() {
+  const [i18next] = useTranslation('translation');
   return (
     <div className={styles.title}>
-      <h4 className={styles['main-title']}>NodeJS & Web Developer</h4>
+      <h4 className={styles['main-title']}>{i18next('title-title')}</h4>
       <div className={styles['first-last']}>
-        <h1 className={styles.first}>EGOR</h1>
-        <h1 className={styles.last}>DKONE</h1>
+        <h1 className={styles.first}>{i18next('title-first')}</h1>
+        <h1 className={styles.last}>{i18next('title-last')}</h1>
       </div>
       <h3 className={styles.desc}>
-        I am 24 years old. A fan of rapid application
-        development and modern standards for easy writing
-        and code support.
+        {i18next('title-desc')}
       </h3>
     </div>
   );

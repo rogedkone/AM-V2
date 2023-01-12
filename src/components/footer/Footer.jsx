@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from './Footer.module.css';
 import { ReactComponent as Telegram } from '../../svg/social/telegram.svg';
 import { ReactComponent as Vk } from '../../svg/social/vk.svg';
@@ -10,11 +11,12 @@ import { ReactComponent as Email } from '../../svg/social/email.svg';
 import Bg from './Bg';
 
 function Footer() {
+  const [i18next] = useTranslation('translation');
   return (
     <div className={styles.footer}>
       <Bg />
       <section className={styles['social-section']}>
-        <h1 className={styles.title}>SOCIAL</h1>
+        <h1 className={styles.title}>{i18next('soc-title')}</h1>
         <div className={styles['soc-list']}>
           <Telegram />
           <Vk />
@@ -24,7 +26,7 @@ function Footer() {
           <Discord />
           <Email />
         </div>
-        <h2 className={styles['end-title']}>Thanks for watching!</h2>
+        <h2 className={styles['soc-end']}>{i18next('soc-end')}</h2>
       </section>
     </div>
   );
