@@ -7,21 +7,25 @@ import { ReactComponent as Github } from '../../svg/social/github.svg';
 import { ReactComponent as Phone } from '../../svg/social/phone.svg';
 import { ReactComponent as Discord } from '../../svg/social/discord.svg';
 import { ReactComponent as Email } from '../../svg/social/email.svg';
+import Bg from './Bg';
 
 function Footer() {
   return (
     <div className={styles.footer}>
-      <h1 className={styles.title}>SOCIAL</h1>
-      <div className={styles['soc-list']}>
-        <Telegram />
-        <Vk />
-        <Twitter />
-        <Github />
-        <Phone />
-        <Discord />
-        <Email />
-      </div>
-      <h2 className={styles['end-title']}>Thanks for watching!</h2>
+      <Bg />
+      <section className={styles['social-section']}>
+        <h1 className={styles.title}>SOCIAL</h1>
+        <div className={styles['soc-list']}>
+          <Telegram />
+          <Vk />
+          <Twitter />
+          <Github />
+          <Phone />
+          <Discord />
+          <Email />
+        </div>
+        <h2 className={styles['end-title']}>Thanks for watching!</h2>
+      </section>
     </div>
   );
 }

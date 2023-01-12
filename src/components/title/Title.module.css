@@ -3,6 +3,15 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
+
+    @media (min-width: 600px) {
+        margin-bottom: 170px;
+    };
+
+    @media (min-width: 900px) {
+        margin-bottom: 250px;
+    };
 }
 
 .main-title {
@@ -102,7 +111,7 @@
     position: relative;
     left: 5vw;
     align-items: center;
-    font-family: mulish, sans-serif;
+    font-family: var(--font-second);
     font-style: normal;
     font-weight: 400;
     font-size: 3.5vw;

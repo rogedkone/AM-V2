@@ -15,15 +15,6 @@ function Title() {
         development and modern standards for easy writing
         and code support.
       </h3>
-      {/* <h3 className="desc 📱">
-        I am 24 years old. A fan of rapid application
-        development and modern standards for easy writing
-        and code support.
-      </h3> */}
-      {/* <h3 className="desc 🖥️">
-        A fan of rapid application development and modern standards for easy writing
-        and code support.
-      </h3> */}
     </div>
   );
 }

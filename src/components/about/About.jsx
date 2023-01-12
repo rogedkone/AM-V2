@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './About.module.css';
 import { ReactComponent as ThinkSvg } from '../../svg/soft/think.svg';
-// import { ReactComponent as AttentSvg } from '../../svg/soft/attent.svg';
-// import { ReactComponent as TolerSvg } from '../../svg/soft/toler.svg';
+import { ReactComponent as AttentSvg } from '../../svg/soft/attent.svg';
+import { ReactComponent as TolerSvg } from '../../svg/soft/toler.svg';
 import Bg from './Bg';
 
 function About() {
@@ -39,11 +39,11 @@ function About() {
             <h5 className={`${styles['softskill-num']} 📱💻`}>5/5</h5>
             <h3 className={`${styles.softskill} ${styles['skill-two']}`}>Attention</h3>
             <h4 className={`${styles['softskill-subtitle']} 📱💻`}>Details Matter</h4>
-            <ThinkSvg className="svg" />
+            <AttentSvg className="svg" />
             <h5 className={`${styles['softskill-num']} 📱💻`}>4/5</h5>
             <h3 className={`${styles.softskill} ${styles['skill-three']}`}><span /></h3>
             <h4 className={`${styles['softskill-subtitle']} 📱💻`}>Stay Calm</h4>
-            <ThinkSvg className="svg" />
+            <TolerSvg className="svg" />
             <h5 className={`${styles['softskill-num']} 📱💻`}>5/5</h5>
           </div>
         </section>

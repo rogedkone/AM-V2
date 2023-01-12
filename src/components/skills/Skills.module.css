@@ -1,78 +1,92 @@
 .skills {
-    margin-top: -90px;
-    width: 317px;
-    color: white;
+    width: 97vw;
 
-    @media (min-width: 481px) {
-        margin-top: -200px;
-    }
+    @media (min-width: 360px) {
+        width: auto;
+    };
+
+    @media (min-width: 600px) {
+        width: 94vw;
+    };
 
     @media (min-width: 900px) {
-        margin-top: 30px;
-    }
+        max-width: 1200px;
+    };
+
+    padding-bottom: 60px;
 }
 
 .title {
-    font-family: Gilroy, sans-serif;
+    font-family: var(--font-prime);
     font-style: normal;
     font-weight: 800;
     font-size: 64px;
     line-height: 70px;
     text-transform: uppercase;
-    color: #F7F7F7;
 
-    @media (min-width: 481px) {
-        margin-top: 90px;
-        text-align: center;
-    }
+    @media (min-width: 600px) {
+        padding-bottom: 20px;
+    };
 
     @media (min-width: 900px) {
-        margin-top: 0;
-    }
+        text-align: center;
+        padding-bottom: 20px;
+    };
 }
 
 .subtitle {
-    margin-top: 15px;
-    font-family: Gilroy, sans-serif;
+    padding-bottom: 10px;
+    font-family: var(--font-prime);
     font-style: normal;
     font-weight: 300;
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFF;
     text-align: right;
 }
 
 .skills-list {
-    margin-top: 43px;
+    align-items: center;
     justify-content: space-between;
     display: grid;
     row-gap: 12px;
-    align-items: center;
     grid-template-columns: repeat(2, auto);
 
-    @media (min-width: 481px) {
-        margin-top: 150px;
-        grid-template-columns: repeat(4, auto);
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        column-gap: 60px;
+    span, h2 {
+        @media (min-width: 600px) {
+            display: none;
+        }
     }
 
+    @media (min-width: 360px) {
+        padding-left: 10px;
+        justify-content: center;
+        column-gap: 80px;
+    };
+
+    @media (min-width: 600px) {
+        column-gap: 0;
+        justify-content: space-between;
+        padding-left: 0;
+        grid-template-columns: repeat(4, auto);
+        row-gap: 20px;
+    };
+
     @media (min-width: 900px) {
-        margin-top: 43px;
         grid-template-columns: repeat(6, auto);
-    }
+        row-gap: 25px;
+    };
+
 }
 
 .skill {
-    font-family: Gilroy, sans-serif;
+    font-family: var(--font-prime);
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
     line-height: 26px;
     letter-spacing: 0.025em;
     color: #FFF;
+    text-align: left;
 }

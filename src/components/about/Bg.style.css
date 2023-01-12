@@ -1,13 +1,9 @@
 .bg {
     position: absolute;
-    top: -230px;
-
-    @media (min-width: 600px) {
-        top: -190px
-    };
+    top: -190px;
 
     @media (min-width: 900px) {
-        top: -240px;
+        top: -220px
     };
 }
 
@@ -15,7 +11,4 @@
     @media (min-width: 390px) {
         width: 100vw;
     };
-}
-
-.pc {
 }

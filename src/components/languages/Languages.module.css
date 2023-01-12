@@ -1,16 +1,17 @@
 .languages {
-    margin-top: 70px;
-    width: 317px;
+    width: 100%;
+    max-width: 300px;
     color: white;
+    padding-bottom: 80px;
 }
 
 .title {
     text-align: center;
-    font-family: Gilroy, sans-serif;
+    font-family: var(--font-prime);
     font-style: normal;
     font-weight: 300;
     font-size: 32px;
-    line-height: 40px;    
+    line-height: 40px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #FFF;
@@ -27,7 +28,7 @@
 
 .lang {
     text-align: right;
-    font-family: Gilroy, sans-serif;
+    font-family: var(--font-prime);
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
