@@ -6,10 +6,10 @@ function Navigation() {
   const [i18next] = useTranslation('translation');
   return (
     <div className={styles.navigation}>
-      <a href="changeME!">{i18next('nav-about')}</a>
-      <a href="changeME!">{i18next('nav-skills')}</a>
-      <a href="changeME!">{i18next('nav-portfolio')}</a>
-      <a href="changeME!">{i18next('nav-contacts')}</a>
+      <a href="#about">{i18next('nav-about')}</a>
+      <a href="#skills">{i18next('nav-skills')}</a>
+      <a href="#footer">{i18next('nav-portfolio')}</a>
+      <a href="#footer">{i18next('nav-contacts')}</a>
     </div>
   );
 }

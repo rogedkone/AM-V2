@@ -11,7 +11,7 @@ function Title() {
         <h1 className={styles.first}>{i18next('title-first')}</h1>
         <h1 className={styles.last}>{i18next('title-last')}</h1>
       </div>
-      <h3 className={styles.desc}>
+      <h3 className={styles[`desc-${i18next('lang')}`]}>
         {i18next('title-desc')}
       </h3>
     </div>

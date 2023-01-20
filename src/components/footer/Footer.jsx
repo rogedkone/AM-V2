@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './Footer.module.css';
+import social from '../../json/links.json';
 import { ReactComponent as Telegram } from '../../svg/social/telegram.svg';
 import { ReactComponent as Vk } from '../../svg/social/vk.svg';
 import { ReactComponent as Twitter } from '../../svg/social/twitter.svg';
@@ -16,17 +17,17 @@ function Footer() {
     <div className={styles.footer}>
       <Bg />
       <section className={styles['social-section']}>
-        <h1 className={styles.title}>{i18next('soc-title')}</h1>
+        <h1 id="footer" className={styles[`title-${i18next('lang')}`]}>{i18next('soc-title')}</h1>
         <div className={styles['soc-list']}>
-          <Telegram />
-          <Vk />
-          <Twitter />
-          <Github />
-          <Phone />
-          <Discord />
-          <Email />
+          <a label="telegram" href={social.telegram}><Telegram /></a>
+          <a label="vkontakte" href={social.vkontakte}><Vk /></a>
+          <a label="twitter" href={social.twitter}><Twitter /></a>
+          <a label="github" href={social.github}><Github /></a>
+          <a label="phone" href={social.phone}><Phone /></a>
+          <a label="discord" href={social.discord}><Discord /></a>
+          <a label="email" href={social.email}><Email /></a>
         </div>
-        <h2 className={styles['soc-end']}>{i18next('soc-end')}</h2>
+        <h2 className={styles[`soc-end-${i18next('lang')}`]}>{i18next('soc-end')}</h2>
       </section>
     </div>
   );

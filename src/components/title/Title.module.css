@@ -109,7 +109,7 @@
     width: 100vw;
 }
 
-.desc {
+.desc-eng {
     position: relative;
     left: 5vw;
     align-items: center;
@@ -132,5 +132,31 @@
 
     @media (min-width: 900px) {
         font-size: 1.4vw;
+    };
+}
+
+.desc-rus {
+    position: relative;
+    left: 5vw;
+    align-items: center;
+    font-family: var(--font-second);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5vw;
+
+    @media (min-width: 320px) {
+        max-width: 82vw;
+    };
+
+    @media (min-width: 600px) {
+        max-width: 95vw;
+        position: static;
+        text-align: center;
+        font-size: 1.3vw;
+    };
+
+    @media (min-width: 900px) {
+        font-size: 1.4vw;
+        max-width: 76vw;
     };
 }

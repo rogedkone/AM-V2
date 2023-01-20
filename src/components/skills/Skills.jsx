@@ -12,46 +12,81 @@ function Skills() {
   const [i18next] = useTranslation('translation');
   return (
     <div className={styles.skills}>
-      <h1 className={styles.title}>{i18next('skills-title')}</h1>
+      <h1 id="skills" className={styles.title}>{i18next('skills-title')}</h1>
+      <h2 className={`${styles[`subtitle-${i18next('lang')}`]}`}>{i18next('skills-subtitle')}</h2>
       <div className={styles['skills-list']}>
-        <span />
-        <h2 className={`${styles.subtitle}`}>{i18next('skills-subtitle')}</h2>
-        <h3 className={styles.skill}>JS & Node.js</h3>
-        <OrangeThree />
-        <h3 className={styles.skill}>Typescript</h3>
-        <WhiteOne />
-        <h3 className={styles.skill}>Python</h3>
-        <OrangeThree />
-        <h3 className={styles.skill}>Figma</h3>
-        <WhiteTwo />
-        <h3 className={styles.skill}>React</h3>
-        <OrangeThree />
-        <h3 className={styles.skill}>Redux</h3>
-        <WhiteTwo />
-        <h3 className={styles.skill}>StyledComp</h3>
-        <OrangeThree />
-        <h3 className={styles.skill}>TailWind</h3>
-        <WhiteTwo />
-        <h3 className={styles.skill}>PostCSS</h3>
-        <OrangeTwo />
-        <h3 className={styles.skill}>Bootstrap</h3>
-        <WhiteTwo />
-        <h3 className={styles.skill}>GitFlow</h3>
-        <OrangeTwo />
-        <h3 className={styles.skill}>CI/CD</h3>
-        <WhiteTwo />
-        <h3 className={styles.skill}>Unix</h3>
-        <OrangeTwo />
-        <h3 className={styles.skill}>Docker</h3>
-        <WhiteOne />
-        <h3 className={styles.skill}>Webpack</h3>
-        <OrangeTwo />
-        <h3 className={styles.skill}>SQL</h3>
-        <WhiteTwo />
-        <h3 className={styles.skill}>NoSQL</h3>
-        <OrangeOne />
-        <h3 className={styles.skill}>REST</h3>
-        <WhiteTwo />
+        <div className={`${styles['cell-white']} ${styles.first}`}>
+          <h3 className={styles.skill}>JS & NodeJS</h3>
+          <OrangeThree />
+        </div>
+        <div className={`${styles.cell} ${styles.second}`}>
+          <h3 className={styles.skill}>TypeScript</h3>
+          <WhiteOne />
+        </div>
+        <div className={styles['cell-white']}>
+          <h3 className={styles.skill}>Python</h3>
+          <OrangeThree />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>Figma</h3>
+          <WhiteTwo />
+        </div>
+        <div className={styles['cell-white']}>
+          <h3 className={styles.skill}>React</h3>
+          <OrangeThree />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>Redux</h3>
+          <WhiteTwo />
+        </div>
+        <div className={styles['cell-white']}>
+          <h3 className={styles.skill}>StyledCompt</h3>
+          <OrangeThree />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>TailWind</h3>
+          <WhiteTwo />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>PostCSS</h3>
+          <OrangeTwo />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>BootStrap</h3>
+          <WhiteTwo />
+        </div>
+        <div className={styles['cell-white']}>
+          <h3 className={styles.skill}>GitFlow</h3>
+          <OrangeThree />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>CI/CD</h3>
+          <WhiteTwo />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>Unix</h3>
+          <OrangeTwo />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>Docker</h3>
+          <WhiteOne />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>Webpack</h3>
+          <OrangeTwo />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>SQL</h3>
+          <WhiteTwo />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>NoSQL</h3>
+          <OrangeOne />
+        </div>
+        <div className={styles.cell}>
+          <h3 className={styles.skill}>REST</h3>
+          <WhiteTwo />
+        </div>
       </div>
     </div>
   );
